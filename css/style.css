@@ -1040,6 +1040,19 @@ ul {
 
 
 @media (max-width: 580px) {
+  .wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    /*Для компа*/
+    background-image: url("../img/hedgehog_fon.png");
+    /*Для кодепена
+    background-image: url("https://raw.githubusercontent.com/leska-ver/hedgehog/main/img/hedgehog_fon.png");*/
+    /*Если не одна не обнаружена браузером*/
+    background-color: var(--color-juniper);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .container {
     padding: 0 17px;
   }
