@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
- //Меню(Флаги) клик или is-open--is-active//
+//Меню(Флаги) клик или is-open--is-active//
 const params = {
-  btnClassName: "top-btn",
+  btnClassName: "simplebar-js",
   activeClassName: "is-active",
   disabledClassName: "is-disabled"
 }
@@ -118,9 +118,11 @@ setMenuListener();
 
   $(document).ready(function() {
     $('#burger').click(function() {
-      $(this).toggleClass('open');
+      $(this).toggleClass('open')
     })
-  });
+  })
+
+  
 
 
   // Плавный скролл по якорям. В любое место можно кинуть.
