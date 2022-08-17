@@ -51,52 +51,105 @@ setMenuListener();
 
 
 
+//Слайдер - Ценик(price)//
+let priceSlider = new Swiper(".price__slides-container", {
+  // slidesPerColumnFill: "row",(от Swiper-а 6-ой версии)
+  slidesPerView: 1,
+  // slidesPerColumn: 2,(от Swiper-а 6-ой версии)
+  grid: {
+    rows: 1,
+    fill: "row"
+  }, //(от Swiper-а 7-ая версия)
+  spaceBetween: 20,
 
 
-  
-  //Swiper - Ценик(price) 
-  //Слайдер
-  let priceSlider = new Swiper(".price__swiper", {
-    slidesPerColumnFill: "row",
-    slidesPerView: 1,
-    slidesPerColumn: 1,
-    spaceBetween: 20,
-    
-    //Бесконечное листание страниц
-    //speed: 2000,Интервал ожидания
+  //Бесконечное листание страниц
+  speed: 2000, //Интервал ожидания
 
-    // autoplay: {
-      //delay: 3000,Интервал ожидания
-    //   disableOnInteraction: false,      
-    // },  
+  // autoplay: {
+  //delay: 3000,Интервал ожидания
+  //     disableOnInteraction: false,      
+  // }, 
 
 
-    pagination: {
-    el: ".price_js, .price__pagination",
+  pagination: {
+    el: ".price .price__pagination",
     type: "fraction"
-    },
+  },
 
-    navigation: {
-    nextEl: ".price__next",
-    prevEl: ".price__prev"
-    },
+  navigation: {
+    nextEl: ".price__btn_next",
+    prevEl: ".price__btn_prev"
+  },
 
-    //Стили для галереи
-    breakpoints: {
+  //Стили для галереи
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      // slidesPerColumn: 2,(от Swiper-а 6-ой версии)
+      grid: {
+        rows: 1
+      }, //(от Swiper-а 7-ая версия)
+      spaceBetween: 30
+    }, 
+
     581: {
-      slidesPerView: 2,
-      slidesPerColumn: 2,
+      slidesPerView: 1,
+      // slidesPerColumn: 2,(от Swiper-а 6-ой версии)
+      grid: {
+        rows: 1
+      }, //(от Swiper-а 7-ая версия)
       spaceBetween: 30
     },
 
-    1200: {
-      slidesPerView: 2,
-      slidesPerColumn: 2,
-      spaceBetween: 45
-    }
+    768: {
+      slidesPerView: 1,
+      // slidesPerColumn: 2,(от Swiper-а 6-ой версии)
+      grid: {
+        rows: 1
+      }, //(от Swiper-а 7-ая версия)
+      spaceBetween: 32
     },
 
-    on: {
+    900: {
+      slidesPerView: 2,
+      // slidesPerColumn: 2,(от Swiper-а 6-ой версии)
+      grid: {
+        rows: 1
+      }, //(от Swiper-а 7-ая версия)
+      spaceBetween: 35
+    },
+
+    1620: {
+      slidesPerView: 2,
+      // slidesPerColumn: 2,(от Swiper-а 6-ой версии)
+      grid: {
+        rows: 1
+      }, //(от Swiper-а 7-ая версия)
+      spaceBetween: 35
+    },
+
+    1920: {
+      slidesPerView: 2,
+      // slidesPerColumn: 2,(от Swiper-а 6-ой версии)
+      grid: {
+        rows: 1
+      }, //(от Swiper-а 7-ая версия)
+      spaceBetween: 35
+    },
+
+    2220: {
+      slidesPerView: 2,
+      // slidesPerColumn: 2,(от Swiper-а 6-ой версии)
+      grid: {
+        rows: 1
+      }, //(от Swiper-а 7-ая версия)
+      spaceBetween: 50
+    }
+  },
+
+
+  on: {
     /* исправляет баг с margin-top остающимся при смене брейкпоинта */
     beforeResize: function () {
       this.slides.forEach((el) => {
@@ -104,7 +157,8 @@ setMenuListener();
       });
     }
     }
-  });
+});
+
 
 
 
