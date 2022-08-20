@@ -1899,10 +1899,10 @@ ul {
   }  
 
   .price__span-plus::before {
-    top: 29px;
+    top: 30px;
     left: -6px;
-    border: 41px solid transparent;
-    border-left: 47px solid var(--color-white);
+    border: 42px solid transparent;
+    border-left: 49px solid var(--color-white);
   }
 
   .price__foto {
