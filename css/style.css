@@ -1894,11 +1894,15 @@ ul {
     bottom: 18px;
   }
 
+  .price__span-plus {
+    margin-right: 4px;
+  }  
+
   .price__span-plus::before {
     top: 29px;
     left: -6px;
     border: 45px solid transparent;
-    border-left: 45px solid var(--color-white);
+    border-left: 48px solid var(--color-white);
   }
 
   .price__foto {
