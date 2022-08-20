@@ -890,7 +890,7 @@ ul {
 .price__plus {
   position: absolute;
   right: -4px;
-  bottom: -24px;
+  bottom: -23px;
 }
 
 .price__span-plus {
@@ -1859,9 +1859,9 @@ ul {
   }
 
   .price__span-percent {
-    top: -4px;
+    top: -5px;
     left: 30px;
-    padding: 2px 8.3px;
+    padding: 1px 8.3px;
     font-size: 16px;
   }
 
@@ -1897,8 +1897,8 @@ ul {
   .price__span-plus::before {
     top: 29px;
     left: -6px;
-    border: 40px solid transparent;
-    border-left: 40px solid var(--color-white);
+    border: 45px solid transparent;
+    border-left: 45px solid var(--color-white);
   }
 
   .price__foto {
