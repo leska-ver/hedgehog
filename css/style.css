@@ -1904,9 +1904,9 @@ ul {
 
   .price__span-plus::before {
     top: 21px;
-    left: -13px;
-    border: 50px solid transparent;
-    border-left: 50px solid var(--color-white);
+    left: -16px;
+    border: 60px solid transparent;
+    border-left: 60px solid var(--color-white);
   }
 
   .price__foto {
