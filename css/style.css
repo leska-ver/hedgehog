@@ -1903,10 +1903,10 @@ ul {
   }
 
   .price__span-plus::before {
-    top: 26px;
-    left: -11px;
-    border: 40px solid transparent;
-    border-left: 40px solid var(--color-white);
+    top: 24px;
+    left: -15px;
+    border: 45px solid transparent;
+    border-left: 45px solid var(--color-white);
   }
 
   .price__foto {
