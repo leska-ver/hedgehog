@@ -686,19 +686,21 @@ ul {
 .price__slide {
   position: relative;
   padding: 22px 60px 105px;
-  border-radius: 20px;
+  border-radius: 20px 20px 0 20px;
   /*auto для резины карточек*/
   height: auto;
   font-size: 18px;  
-  color: var(--color-black-0);
+  color: var(--color-black-0);  
 }
 
 .price__slide:nth-child(odd) {
-  background-color: var(--color-sandyBeach);     
+  /* Добавляем треугольник  */
+  background-image: linear-gradient(135deg, var(--color-sandyBeach) 91%, var(--color-white) 91%);     
 }
 
 .price__slide:nth-child(even) { 
-  background-color: var(--color-zanah);
+  /* Добавляем треугольник */
+  background-image: linear-gradient(135deg, var(--color-zanah) 91%, var(--color-white) 91%);    
 }
 
 .price__slide_Zindex1 {
@@ -894,17 +896,6 @@ ul {
   width: max-content;
   height: max-content;
   font-size: 77.6px;
-}
-
-.price__span-plus::before {
-  content: '';
-  position: absolute;
-  top: 8px;
-  left: -25px;
-  border: 73px solid transparent;
-  border-left: 84px solid var(--color-white);/* Добавляем треугольник */
-  transform: rotate(45deg);
-  z-index: -1;
 }
 
 .price__foto {
@@ -1896,13 +1887,6 @@ ul {
 
   .price__span-plus {
     font-size: 70px;
-  }
-
-  .price__span-plus::before {
-    top: 7px;
-    left: -10px;
-    border: 53px solid transparent;
-    border-left: 53px solid var(--color-white);
   }
 
   .price__foto {
