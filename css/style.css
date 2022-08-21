@@ -899,10 +899,10 @@ ul {
 .price__span-plus::before {
   content: '';
   position: absolute;
-  top: -78px;
-  left: -10px;
-  border: 73px solid transparent;
-  border-left: 73px solid var(--color-white);/* Добавляем треугольник */
+  top: 8px;
+  left: -25px;
+  border: 62px solid transparent;
+  border-left: 60px solid var(--color-white);/* Добавляем треугольник */
   transform: rotate(45deg);
   z-index: -1;
 }
