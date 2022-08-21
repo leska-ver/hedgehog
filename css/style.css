@@ -1855,6 +1855,16 @@ ul {
     font-size: 16px;
   }
 
+  .price__slide:nth-child(odd) {
+    /* Добавляем треугольник  */
+    background-image: linear-gradient(135deg, var(--color-sandyBeach) 88%, var(--color-white) 88%);     
+  }
+  
+  .price__slide:nth-child(even) { 
+    /* Добавляем треугольник */
+    background-image: linear-gradient(135deg, var(--color-zanah) 88%, var(--color-white) 88%);    
+  }
+
   .price__left {
     width: 85%;
   }
