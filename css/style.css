@@ -1849,7 +1849,7 @@ ul {
   }
 
   .price {
-    padding: 6px 0 11px;
+    padding: 6px 0 20px;
   }
 
   .price__swiper {
@@ -1892,6 +1892,11 @@ ul {
   .price__rezine {
     bottom: 18px;
   } 
+
+  .price__plus {
+    right: 1px;
+    bottom: -20px;
+  }
 
   .price__span-plus {
     font-size: 70px;
@@ -1948,7 +1953,7 @@ ul {
   }
 
   .recording {
-    padding-bottom: 46px;
+    padding: 20px 0 46px;
   }
 
   .recording__container {
@@ -1957,7 +1962,7 @@ ul {
 
   .recording__fon {
     margin-bottom: 49px;
-    padding: 32px 20px 66px;
+    padding: 42px 20px 66px;
     border-radius: inherit;
   }
 
@@ -2071,6 +2076,7 @@ ul {
   .footer__list-icone {
     align-items: inherit;
     flex-direction: column;
+    margin-bottom: 0;
   }
 
   .footer__item-icone {
@@ -2080,6 +2086,7 @@ ul {
 
   .footer__item-icone:not(:last-child) {
     margin-right: 0;
+    margin-bottom: 7px;
   }
 
   .footer__linkPhone {
