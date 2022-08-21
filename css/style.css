@@ -889,7 +889,7 @@ ul {
 
 .price__plus {
   position: absolute;
-  right: -4px;
+  right: 4px;
   bottom: -23px;
 }
 
@@ -903,10 +903,10 @@ ul {
 .price__span-plus::before {
   content: '';
   position: absolute;
-  top: 14px;
-  left: -21px;
-  border: 57px solid transparent;
-  border-left: 58px solid var(--color-white);/* Добавляем треугольник */
+  top: 8px;
+  left: -25px;
+  border: 62px solid transparent;
+  border-left: 60px solid var(--color-white);/* Добавляем треугольник */
   transform: rotate(45deg);
   z-index: -1;
 }
@@ -1930,7 +1930,7 @@ ul {
   }
 
   .price__vaccinated {
-    margin-right: 15px;
+    margin-right: 10px;
     font-size: 10px;
   }
 
