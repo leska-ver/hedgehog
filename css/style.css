@@ -895,7 +895,6 @@ ul {
 
 .price__span-plus {
   position: relative;
-  margin-right: 5px;
   width: max-content;
   height: max-content;
   font-size: 77.6px;
@@ -904,10 +903,10 @@ ul {
 .price__span-plus::before {
   content: '';
   position: absolute;
-  top: 13px;
+  top: 14px;
   left: -21px;
-  border: 56px solid transparent;
-  border-left: 56px solid var(--color-white);/* Добавляем треугольник */
+  border: 57px solid transparent;
+  border-left: 58px solid var(--color-white);/* Добавляем треугольник */
   transform: rotate(45deg);
   z-index: -1;
 }
@@ -1892,17 +1891,17 @@ ul {
 
   .price__rezine {
     bottom: 18px;
-  }
+  } 
 
   .price__span-plus {
-    margin-right: 4px;
-  }  
+    font-size: 70px;
+  }
 
   .price__span-plus::before {
-    top: 30px;
-    left: -6px;
-    border: 42px solid transparent;
-    border-left: 49px solid var(--color-white);
+    top: 26px;
+    left: -11px;
+    border: 40px solid transparent;
+    border-left: 40px solid var(--color-white);
   }
 
   .price__foto {
