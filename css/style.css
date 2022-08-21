@@ -1857,12 +1857,12 @@ ul {
 
   .price__slide:nth-child(odd) {
     /* Добавляем треугольник  */
-    background-image: linear-gradient(135deg, var(--color-sandyBeach) 75%, var(--color-white) 75%);     
+    background-image: linear-gradient(135deg, var(--color-sandyBeach) 60%, var(--color-white) 60%);     
   }
   
   .price__slide:nth-child(even) { 
     /* Добавляем треугольник */
-    background-image: linear-gradient(135deg, var(--color-zanah) 75%, var(--color-white) 75%);    
+    background-image: linear-gradient(135deg, var(--color-zanah) 60%, var(--color-white) 60%);    
   }
 
   .price__left {
