@@ -899,10 +899,10 @@ ul {
 .price__span-plus::before {
   content: '';
   position: absolute;
-  top: 8px;
-  left: -25px;
-  border: 62px solid transparent;
-  border-left: 60px solid var(--color-white);/* Добавляем треугольник */
+  top: -78px;
+  left: -10px;
+  border: 73px solid transparent;
+  border-left: 73px solid var(--color-white);/* Добавляем треугольник */
   transform: rotate(45deg);
   z-index: -1;
 }
@@ -1899,10 +1899,10 @@ ul {
   }
 
   .price__span-plus::before {
-    top: 21px;
-    left: -15px;
-    border: 45px solid transparent;
-    border-left: 45px solid var(--color-white);
+    top: 14px;
+    left: -30px;
+    border: 73px solid transparent;
+    border-left: 73px solid var(--color-white);
   }
 
   .price__foto {
