@@ -701,25 +701,21 @@ ul {
   background-color: var(--color-zanah);
 }
 
-/* .price__slide_Zindex1 {
-  z-index: -77;
+.price__slide_Zindex1 {
+  z-index: -74;
 }
 
 .price__slide_Zindex2 {
-  z-index: -76;
-}
-
-.price__slide_Zindex3 {
   z-index: -75;
 }
 
-.price__slide_Zindex4 {
-  z-index: -74;
-} */
-
-.price__slide:nth-child(even) {
-  z-index: -11; 
+.price__slide_Zindex3 {
+  z-index: -76;
 }
+
+.price__slide_Zindex4 {
+  z-index: -77;
+} 
 
 .price__article {
   display: flex;
